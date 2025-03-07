@@ -1,0 +1,252 @@
+nav {
+display:flex ;
+justify-content: space-around;
+font-size : 15px;
+padding-bottom: 10px;
+background-color: rgba(128, 77, 77, 0.707);
+position:sticky;
+/* width: 100%; */
+box-sizing: border-box;
+z-index:  100;
+
+top:0;
+}
+
+nav a{
+    padding: 10px;
+    color:white;
+    text-decoration:none;
+}
+.nav-items a{
+    padding-top: 20px;
+}
+.join{
+    margin-top: 6px;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(225, 221, 228);
+
+}
+.header{
+    height: 700px;
+}
+.text-header{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 1500px;
+    height: 701px;
+    padding: 200px 0 245px;
+    background-color: rgb(111, 140, 173);
+   font-weight : bold;
+   align-items: center;
+
+}
+.header form{
+    width: 500px;
+    height:60px;
+}
+.header-form input[type="text"]{
+        width: 300px;
+        padding:22px;
+        border: none;
+  }
+  .header-form input[type="button"]{
+    width: 125px;
+    height: 60px;
+    border:none;
+    background-color: rgb(184, 172, 223);
+    color: rgb(228, 218, 218);
+
+  }
+  .page1{
+    width: 1503px;
+    height: 617px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: azure;
+  }
+  .page1-matter{
+    width: 550px;
+    height: 467px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.page1-flex{
+    display: flex;
+    width: 550px;
+    gap: 20px;
+    
+}
+items{
+    padding: 10px;
+    text-align: center;
+    color: rgb(63, 8, 8);
+    font-size: 25px;
+    font-weight: bold;
+}
+.page2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 716px;
+    padding: 100px;
+    background-color: #b1c4c4;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+
+}
+.page2-context{
+    width: 650px;
+}
+.page2 span{
+    color: rgb(251, 251, 252);
+}
+.page2 h1{
+    font-size: 50px;
+}
+.page2 p{
+    /* color: ; */
+    line-height: 25px;
+}
+
+.page2-items{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    padding: 10px;
+}
+.item1{
+    background-color: rgb(177, 138, 138);
+    justify-content: space-between;
+}
+.item2{
+    background-color: rgb(101, 167, 118);
+}
+.item3{
+    background-color: rgb(164, 135, 135);
+}
+.item4{
+    background-color: rgb(101, 167, 118);
+}
+.page3{
+    width: 1503px;
+    height: 834px;
+}
+.page3-images{
+    padding-top: 100px;
+    display: flex;
+}
+page3-img{
+    width: 400px;
+    height: 480px;
+    position: relative;
+}
+.page3-img div{
+    position: absolute;
+    bottom: 0px; 
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+    page3-text span{
+        color: red;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .page3-text nav{
+        font-size: 50px; 
+    }
+    .page3-text{
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    .page4{
+        height: 500px;
+        background-color: #6f777a;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    padding: 100px;
+    color: white;
+    }
+    .page4-form input[type="text"],input[type="email"],select{
+        height: 50px;
+        width: 250px;
+        margin: 10px;
+        background-color: lightblue;
+        border:none;
+    }
+    .page4-form input[type='button']{
+        height: 50px;
+    width: 250px;
+    margin: 10px;
+    background-color: brown;
+    color: white;
+    border:none;
+    }
+    .img-matter{
+        background-color: lightblue;
+        padding: 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .page4-content{
+        text-align: center;
+    }
+    .page5{
+        width: 1503px;
+        height: 693px;
+    
+    }
+    .page5-text{
+        padding: 25px;
+        text-align: center;
+    }
+    .page5-sec{
+        padding: 25px 150px;
+        display: flex;
+        justify-content: space-evenly;
+    
+    }
+    footer{
+        margin-top: 60px;
+        height: 498px;
+        padding: 100px 0 0;
+    background-color: black;
+    color: white;
+}
+.footer1,.footer2{
+    display: flex;
+    justify-content: space-around;
+}
+.foot-input{
+    height: 50px;
+    width: 250px;
+    margin: 10px;
+    background-color:white;
+    border:none;
+    margin-left: -12px;
+}
+.foot-head{
+    font-size: 30px;
+    color: yellow;
+}
+.foot-head:hover{
+    color: green;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+.foot-items ul li{
+    padding: 10px;
+}
+.foot-items ul li i{
+    padding-right: 10px;
+}
+.icon-items i{
+    padding-right: 10px;
+    font-size: 20px;
+}
